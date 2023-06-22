@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aufgabe hinzufügen</title>
+</head>
+<body>
+    <h1>Aufgabe hinzufügen</h1>
+
+    <form action="/addtask" method="post">
+        <label for="task">Aufgabe:</label><br>
+        <input type="text" id="task" name="task"><br><br>
+
+        <label for="description">Beschreibung:</label><br>
+        <textarea id="description" name="description"></textarea><br><br>
+
+        <label for="deadline">Erledigen bis (YYYY/MM/DD):</label><br>
+        <input type="text" id="deadline" name="deadline"><br><br>
+
+        <input type="submit" value="Aufgabe hinzufügen">
+    </form>
+</body>
+</html>

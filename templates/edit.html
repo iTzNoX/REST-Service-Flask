@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aufgabe aktualisieren</title>
+</head>
+<body>
+  <h1>Aufgabe aktualisieren</h1>
+  <form action="/edit" method="POST">
+    <label for="taskName">Aufgaben-Name:</label>
+    <input type="text" id="taskName" name="taskName" required><br><br>
+
+    <label for="taskValue">Zu aktualisierende Eigenschaft:</label>
+    <input type="text" id="taskValue" name="taskValue" required><br><br>
+
+    <label for="newValue">Neuer Wert:</label>
+    <input type="text" id="newValue" name="newValue" required><br><br>
+
+    <input type="submit" value="Aufgabe aktualisieren">
+  </form>
+</body>
+</html>

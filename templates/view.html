@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aufgaben anzeigen</title>
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .task-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        .task-card {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .task-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .task-property {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aufgaben</h1>
+    <div class="task-grid">
+        {% for task in data.values() %}
+        <div class="task-card">
+            <div class="task-title">{{ task['Aufgabe'] }}</div>
+            <div class="task-property">
+                <strong>Beschreibung:</strong> {{ task['Beschreibung'] }}
+            </div>
+            <div class="task-property">
+                <strong>Erledigen bis:</strong> {{ task['Erledigen bis'] }}
+            </div>
+            <div class="task-property">
+                <strong>Erstellt:</strong> {{ task['Erstellt'] }}
+            </div>
+            <div class="task-property">
+                <strong>Verbleibende Zeit:</strong> {{ task['Verbleibende Zeit'] }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

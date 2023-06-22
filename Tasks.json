@@ -1,0 +1,30 @@
+{
+    "Aufgabe2": {
+        "Aufgabe": "Friseur",
+        "Beschreibung": "Haare K\u00fcrzen",
+        "Erledigen bis": "2023/07/14",
+        "Erstellt": "06/21/2023 21:37",
+        "Verbleibende Zeit": "22 Tage"
+    },
+    "Aufgabe3": {
+        "Aufgabe": "Matheevent",
+        "Beschreibung": "Mathequiz mit Freunden",
+        "Erledigen bis": "2023/07/29",
+        "Erstellt": "06/21/2023 21:38",
+        "Verbleibende Zeit": "37 Tage"
+    },
+    "Aufgabe4": {
+        "Aufgabe": "Melissa Geburtstag",
+        "Beschreibung": "Feier mit mir, Melissa, Fabienne und Max",
+        "Erledigen bis": "2023/08/03",
+        "Erstellt": "06/21/2023 21:38",
+        "Verbleibende Zeit": "42 Tage"
+    },
+    "Aufgabe5": {
+        "Aufgabe": "Projektarbeit",
+        "Beschreibung": "REST Service erstellen",
+        "Erledigen bis": "2023/06/23",
+        "Erstellt": "06/21/2023 21:42",
+        "Verbleibende Zeit": "1 Tage"
+    }
+}

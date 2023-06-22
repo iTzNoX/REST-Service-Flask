@@ -1,0 +1,42 @@
+{
+    "Person1": {
+        "ID": 4584,
+        "Name": "Tim",
+        "Age": "20",
+        "Gender": "M",
+        "Admin": false,
+        "friend": false
+    },
+    "Person2": {
+        "ID": 6661,
+        "Name": "Melissa",
+        "Age": "22",
+        "Gender": "F",
+        "Admin": false,
+        "friend": false
+    },
+    "Person3": {
+        "ID": 4134,
+        "Name": "Fabienne",
+        "Age": "19",
+        "Gender": "F",
+        "Admin": false,
+        "friend": true
+    },
+    "Person4": {
+        "ID": 3691,
+        "Name": "Max",
+        "Age": "18",
+        "Gender": "F",
+        "Admin": false,
+        "friend": true
+    },
+    "Person5": {
+        "ID": 8763,
+        "Name": "Admin",
+        "Age": "20",
+        "Gender": "M",
+        "Admin": true,
+        "friend": false
+    }
+}

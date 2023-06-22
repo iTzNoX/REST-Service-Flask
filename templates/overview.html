@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Übersicht</title>
+</head>
+<body>
+    <h1>Übersicht</h1>
+
+    {% if is_admin %}
+    <h2>Admin</h2>
+    <button onclick="window.location.href='/view'">Anzeigen</button>
+    <button onclick="window.location.href='/addtask'">Aufgabe hinzufügen</button>
+    <button onclick="window.location.href='/deltask'">Aufgabe löschen</button>
+    <button onclick="window.location.href='/edit'">Aufgabe Bearbeiten</button>
+    <button onclick="window.location.href='/addfriend'">Freund hinzufügen</button>
+    <button onclick="window.location.href='/removefriend'">Freund entfernen</button>
+    <button onclick="window.location.href='/friends'">Freunde</button>
+    {% else %}
+    {% if is_friend %}
+    <h2>Freund</h2>
+    <button onclick="window.location.href='/view'">Anzeigen</button>
+    <button onclick="window.location.href='/addtask'">Aufgabe Hinzufügen</button>
+    <button onclick="window.location.href='/deltask'">Aufgabe Löschen</button>
+    <button onclick="window.location.href='/edit'">Aufgabe Bearbeiten</button>
+    {% else %}
+    <h2>Nutzer</h2>
+    <button onclick="window.location.href='/view'">Anzeigen</button>
+    {% endif %}
+    {% endif %}
+</body>
+</html>
